@@ -12,7 +12,7 @@ window.addEventListener('keydown', (e) => {
 function removeTransition(e) {
    if (e.propretyName !== 'transform') return; //para nao pegar todos os eventos de transicao
 
-   this.classList.remove('playing')
+   console.log(this)
 }
 
 const keys = document.querySelectorAll('.key');
